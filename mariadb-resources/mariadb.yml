@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: mariadb
-          image: quay.io/takaomag/mariadb
+          image: quay.io/linuxserver.io/mariadb
           ports:
             - containerPort: 3306
               name: db-port
