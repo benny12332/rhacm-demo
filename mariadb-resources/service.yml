@@ -2,9 +2,9 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: mariadb
-  name: mariadb
-  namespace: mariadb
+    app: mariadb-prod
+  name: mariadb-prod
+  namespace: mariadb-prod
 spec:
   ports:
   - name: 3306-tcp
