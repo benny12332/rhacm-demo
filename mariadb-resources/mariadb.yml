@@ -26,5 +26,5 @@ spec:
             - name: MARIADB_ROOT_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: mariadb
+                  name: mariadb-prod
                   key: MYSQL_ROOT_PASSWORD
