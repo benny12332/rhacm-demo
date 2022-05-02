@@ -25,6 +25,7 @@ spec:
   clusterSelector:
     matchLabels:
       stage: dev
+      env: aws
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
