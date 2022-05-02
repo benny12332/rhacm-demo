@@ -24,7 +24,7 @@ spec:
       status: "True"
   clusterSelector:
     matchLabels:
-      stage: dev
+      stage: prod
       env: aws
 ---
 apiVersion: apps.open-cluster-management.io/v1
